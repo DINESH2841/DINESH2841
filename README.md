@@ -1,16 +1,23 @@
-## Hi there 👋
+# Hi, I’m Dinesh 👋
 
-<!--
-**DINESH2841/DINESH2841** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+ECE student focused on AI, Embedded Systems, and IoT.
+I build projects that combine hardware + data + ML, not tutorial junk.
 
-Here are some ideas to get you started:
+## What I work on
+- AI/ML: CNNs, transfer learning, attention mechanisms
+- Embedded & IoT: ESP32, sensors, LoRa, real-time data systems
+- Full-stack: Firebase, Google Colab, data visualization
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech Stack
+Python, C/C++, ESP32, TensorFlow, PyTorch, OpenCV  
+Firebase, Google Colab, Git, Linux
+
+## Current Focus
+- AI-powered education systems
+- IoT-based water depth mapping
+- Embedded + ML integration
+
+## Contact
+- GitHub: https://github.com/DINESH2841
+- LinkedIn: https://www.linkedin.com/in/sevinnidinesh/
+- Portfolio: https://dineshsevinni.me/
