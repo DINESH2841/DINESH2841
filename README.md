@@ -1,23 +1,24 @@
-# Hi, I’m Dinesh 👋
+# Hi, I’m Dinesh
 
-ECE student focused on AI, Embedded Systems, and IoT.
-I build projects that combine hardware + data + ML, not tutorial junk.
+ECE student building AI, Embedded Systems, and IoT products.
+I focus on real hardware, real data, and end-to-end systems.
 
-## What I work on
-- AI/ML: CNNs, transfer learning, attention mechanisms
-- Embedded & IoT: ESP32, sensors, LoRa, real-time data systems
-- Full-stack: Firebase, Google Colab, data visualization
+## What I build
+- AI/ML systems using CNNs, transfer learning, and attention mechanisms
+- Embedded and IoT systems using ESP32, sensors, LoRa, and real-time pipelines
+- Data-driven applications with cloud backends and visualization
 
 ## Tech Stack
-Python, C/C++, ESP32, TensorFlow, PyTorch, OpenCV  
-Firebase, Google Colab, Git, Linux
+**AI/ML:** Python, TensorFlow, PyTorch, OpenCV  
+**Embedded:** ESP32, C/C++, Sensors, LoRa  
+**Backend & Tools:** Firebase, Google Colab, Git, Linux
 
 ## Current Focus
-- AI-powered education systems
+- AI-powered education platforms
 - IoT-based water depth mapping
-- Embedded + ML integration
+- Embedded + ML system integration
 
-## Contact
-- GitHub: https://github.com/DINESH2841
-- LinkedIn: https://www.linkedin.com/in/sevinnidinesh/
+## Links
+- GitHub: https://github.com/DINESH2841  
+- LinkedIn: https://www.linkedin.com/in/sevinnidinesh/  
 - Portfolio: https://dineshsevinni.me/
