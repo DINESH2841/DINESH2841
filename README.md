@@ -1,115 +1,116 @@
-<div align="center">
+<h1 align="center">S Dinesh</h1>
 
-# S Dinesh - ML Engineer & IoT Systems Builder
+<p align="center">
+  🧠 97.2% Accurate Oral Cancer Detection (DenseNet201 + CBAM)<br/>
+  📡 Real-time RFID System (&lt;800ms, ESP32 → Google Sheets)<br/>
+  ⚙️ Built FinTech + E-commerce end-to-end systems
+</p>
 
-**I build systems that actually work - not demos.**
-
-[![Profile Views](https://komarev.com/ghpvc/?username=DINESH2841&color=0e75b6&style=flat)](https://github.com/DINESH2841)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/sevinnidinesh)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-252525?style=flat&logo=google-chrome)](https://dineshsevinni.me/)
-
-</div>
+<p align="center">
+  <a href="https://linkedin.com/in/sevinnidinesh"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" /></a>
+  <a href="https://dineshsevinni.me/"><img src="https://img.shields.io/badge/Portfolio-Visit-252525?style=flat&logo=google-chrome" /></a>
+  <a href="https://github.com/DINESH2841/Oral-Cancer-Densenet"><img src="https://img.shields.io/badge/Accuracy-97.2%25-brightgreen?style=flat" /></a>
+  <a href="https://github.com/DINESH2841/Oral-Cancer-Densenet"><img src="https://img.shields.io/badge/AUC-0.997-brightgreen?style=flat" /></a>
+</p>
 
 ---
 
-## About Me
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DINESH2841/Oral-Cancer-Densenet/main/results/confusion_matrix.png" width="420" alt="Oral Cancer Model - Confusion Matrix" />
+  &nbsp;&nbsp;
+  <img src="https://raw.githubusercontent.com/DINESH2841/Oral-Cancer-Densenet/main/results/roc_curve.png" width="420" alt="ROC Curve - AUC 0.997" />
+</p>
 
-I build production-grade ML and IoT systems - from training DenseNet201 with custom attention mechanisms to deploying real-time cloud-sync hardware.
+<p align="center"><i>Real outputs from the Oral Cancer Detection model — not demo screenshots</i></p>
 
-> **Focused on:** Medical AI, Embedded Systems, Full-Stack Engineering
+---
 
-```python
-focus = {
-    "primary":   ["Medical Image Classification", "Deep Learning", "IoT Systems"],
-    "secondary": ["Backend APIs", "FinTech Data Engineering", "Automation"],
-    "learning":  ["MLOps", "Edge AI Deployment", "MQTT Protocols"]
-}
+## 🏆 Projects
+
+### 🥇 [Oral Cancer Detection — DenseNet201 + CBAM Attention](https://github.com/DINESH2841/Oral-Cancer-Densenet)
+
+**What I built:**
+- DenseNet201 backbone with CBAM (Spatial + Channel Attention)
+- Trained on 13,202 images (balanced Cancer / Non-Cancer)
+- Benchmarked against EfficientNetB0 and MobileNetV3
+
+**Results:**
+- Accuracy: **97.2%** | Recall: **98.0%** | AUC: **0.997**
+- False Negative rate: **1.83%** (121 missed out of 6,601 cancer samples)
+- Outperformed EfficientNetB0 by **2.4%** on recall
+
+```bash
+python predict.py --image test.jpg
+# CANCER DETECTED (Confidence: 98.7%)
 ```
 
 ---
 
-## Featured Projects
+### 🥈 [RFID Attendance System — ESP32 + Google Sheets](https://github.com/DINESH2841/RFID-Based-ESP-Integrated-with-Google-Sheets)
 
-### Oral Cancer Detection - DenseNet201 + Attention Optimization
+**What I built:**
+- ESP32 + RC522 RFID reader over SPI protocol
+- HTTP POST to Google Apps Script webhook to Google Sheets
+- Web dashboard with live filtering, CSV export, admin controls
 
-> **97.2% accuracy | AUC: 0.997 | 13,000+ image dataset | Recall: 98.0%**
-
-Implemented transfer learning on DenseNet201 with CBAM (Convolutional Block Attention Module) - combining spatial and channel attention - to improve detection of disease-indicative regions versus standard CNN baselines. False Negative rate: 1.83%.
-
-**Why it matters:** In oncology, missing cancer (FN) costs lives. Recall (98.0%) was the design target.
-
-[![View Project](https://img.shields.io/badge/View_Project-DenseNet201_Cancer_Detection-00b4d8?style=flat-square)](https://github.com/DINESH2841/Oral-Cancer-Densenet)
-
----
-
-### RFID Attendance System - ESP32 + Google Sheets + Live Dashboard
-
-> **<800ms cloud sync | Hardware-to-Cloud-to-Web pipeline | Deployed & running**
-
-Engineered a complete IoT stack: ESP32 + RC522 over SPI -> WiFi HTTP POST -> Google Apps Script webhook -> Google Sheets -> Web dashboard with live filtering and CSV export. Google Apps Script acts as middleware so no credentials are exposed on the device.
-
-[![View Project](https://img.shields.io/badge/View_Project-RFID_IoT_System-orange?style=flat-square)](https://github.com/DINESH2841/RFID-Based-ESP-Integrated-with-Google-Sheets)
+**Results:**
+- Cloud sync latency: **<800ms** card tap to Sheets
+- Offline buffering via EEPROM — no data loss on WiFi drop
+- Supports **50+ registered cards** via SPIFFS JSON config
 
 ---
 
-### Bank Statement Analyzer - FinTech Data Engine
+### 🥉 [Bank Statement Analyzer](https://github.com/DINESH2841/bank_analyzer_app)
 
-> **Multi-bank parser | Fraud detection | Category classification | Monthly Average Balance**
-
-Built a production financial data engine that parses bank statements, classifies transactions into 20+ categories, calculates Monthly Average Balance (daily gap-filling), detects anomalies, and generates visual dashboards.
-
-[![View Project](https://img.shields.io/badge/View_Project-FinTech_Analyzer-purple?style=flat-square)](https://github.com/DINESH2841/bank_analyzer_app)
-
----
-
-### Ras Currys - E-Commerce Platform
-
-> **Next.js, Node.js, MongoDB, Redis, WhatsApp Orders, HDFC Payment Gateway**
-
-Full-stack delivery platform with fraud detection, zone-based delivery pricing, admin order control, WhatsApp order automation, email notifications, and production deployment.
-
-[![View Showcase](https://img.shields.io/badge/View_Showcase-Ras_Currys-red?style=flat-square)](https://github.com/DINESH2841/rascurrys-showcase)
+**What I built:**
+- Multi-bank parser with 20+ transaction categories
+- Monthly Average Balance engine with daily gap-filling
+- Fraud flag detection + visual dashboard
 
 ---
 
-## GitHub Stats
+### ⚙️ [Ras Currys — E-Commerce Platform](https://github.com/DINESH2841/rascurrys-showcase)
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dinesh2841&show_icons=true&locale=en&theme=tokyonight&hide_border=true&include_all_commits=true" alt="dinesh2841 stats" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dinesh2841&show_icons=true&locale=en&layout=compact&theme=tokyonight&hide_border=true" alt="dinesh2841 top langs" height="150" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=DINESH2841&theme=tokyonight&hide_border=true" alt="streak" />
-</p>
+**What I built:**
+- Next.js + Node.js + MongoDB + Redis full-stack delivery app
+- WhatsApp order automation + HDFC payment gateway
+- Zone-based delivery pricing + fraud detection on orders
 
 ---
 
-## Tech Stack
+## 🎯 What I'm Currently Building
+
+- 💼 **[Job Tracker](https://github.com/DINESH2841/Job_Tracker)** — Application pipeline tracker with status stages and analytics
+- 🏦 **[Bank Statement Analyzer](https://github.com/DINESH2841/bank_analyzer_app)** — FinTech data engine: fraud flags, MAB, category classification
+- 🍛 **[Ras Currys](https://github.com/DINESH2841/rascurrys-showcase)** — WhatsApp orders, HDFC payments, zone-based delivery
+
+---
+
+## 🛠 Tech Stack
 
 | Domain | Technologies |
 |--------|-------------|
-| **ML / AI** | Python, TensorFlow, Keras, OpenCV, DenseNet201, CBAM Attention |
-| **IoT / Hardware** | ESP32, ESP8266, RC522 RFID, Arduino IDE, SPI Protocol |
+| **ML / AI** | Python, TensorFlow, Keras, OpenCV, DenseNet201, CBAM |
+| **IoT** | ESP32, RC522 RFID, Arduino IDE, SPI |
 | **Backend** | Node.js, Express, Redis, MongoDB, PostgreSQL |
 | **Frontend** | Next.js, React, TypeScript, Tailwind CSS |
 | **Cloud** | Vercel, Render, Google Sheets API |
-| **Tools** | Git, Docker, Postman |
 
 ---
 
-## What I am Currently Building
+## 📊 GitHub Stats
 
-- [Job Tracker](https://github.com/DINESH2841/Job_Tracker) - Full-stack career application tracker with status pipeline, reminders, and analytics dashboard
-- [Bank Statement Analyzer](https://github.com/DINESH2841/bank_analyzer_app) - FinTech data engine: multi-bank parser, fraud flags, MAB calculation, and category classification
-- [Ras Currys](https://github.com/DINESH2841/rascurrys-showcase) - Production e-commerce platform: WhatsApp orders, HDFC payments, zone-based delivery, fraud detection
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=dinesh2841&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dinesh2841&layout=compact&theme=tokyonight&hide_border=true" height="150" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=DINESH2841&theme=tokyonight&hide_border=true" />
+</p>
 
 ---
 
-<div align="center">
-
-*"Don't just write code. Build systems."*
-
-</div>
+<p align="center"><i>"Don't just write code. Build systems."</i></p>
 
 ---
