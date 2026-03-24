@@ -7,6 +7,7 @@
 </p>
 
 <p align="center">
+  <img src="https://komarev.com/ghpvc/?username=DINESH2841&color=0e75b6&style=flat" alt="Profile Views" />
   <a href="https://linkedin.com/in/sevinnidinesh"><img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin" /></a>
   <a href="https://dineshsevinni.me/"><img src="https://img.shields.io/badge/Portfolio-Visit-252525?style=flat&logo=google-chrome" /></a>
   <a href="https://github.com/DINESH2841/Oral-Cancer-Densenet"><img src="https://img.shields.io/badge/Accuracy-97.2%25-brightgreen?style=flat" /></a>
