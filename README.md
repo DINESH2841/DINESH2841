@@ -24,9 +24,9 @@
 | Project | Description | Tech Stack | Proof |
 |---------|-------------|------------|-------|
 | **[Oral Cancer Detection (DenseNet201)](https://github.com/DINESH2841/Oral-Cancer-Densenet)** | 97.2% accuracy using DenseNet201 + Attention Optimization | Python, TensorFlow, OpenCV | Confusion Matrix, ROC |
-| **[RFID Attendance System](https://github.com/DINESH2841/rfid-attendance-system-esp32)** | Real-time RFID hardware scanning and logging to Google Sheets | ESP32, C++, Google Apps Script | Live UI, Setup Pics |
+| **[RFID Attendance System](https://github.com/DINESH2841/RFID-Based-ESP-Integrated-with-Google-Sheets)** | Real-time RFID hardware scanning and logging to Google Sheets | ESP32, C++, Google Apps Script | Live UI, Setup Pics |
 | **[RAS Curry E-Commerce (Architecture Showcase)](https://github.com/DINESH2841/rascurrys-showcase)** | Live operational, real-time food order management infrastructure | Next.js, Node.js, MongoDB | Dashboard UI, APIs |
-| **[Bank Statement Analyzer](https://github.com/DINESH2841/bank-statement-analyzer)** | Parses financial statements & auto-categorizes transactions | React, Express, Redis | Analytical Charts |
+| **[Bank Statement Analyzer](https://github.com/DINESH2841/bank_analyzer_app)** | Parses financial statements & auto-categorizes transactions | React, Express, Redis | Analytical Charts |
 
 ---
 
