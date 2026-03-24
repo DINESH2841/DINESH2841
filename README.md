@@ -13,7 +13,7 @@
 ---
 
 ### 👨‍💻 About Me
-- � **Building real-world ML and IoT systems** from concept to deployment.
+- 🚀 **Building real-world ML and IoT systems** from concept to deployment.
 - ⚙️ **Strong focus on backend architecture, hardware integration, and problem solving.**
 - 🎯 **Targeting Software Developer roles (2026).**
 
@@ -25,7 +25,7 @@
 |---------|-------------|------------|-------|
 | **[Oral Cancer Detection (DenseNet201)](https://github.com/DINESH2841/Oral-Cancer-Densenet)** | 97.2% accuracy using DenseNet201 + Attention Optimization | Python, TensorFlow, OpenCV | Confusion Matrix, ROC |
 | **[RFID Attendance System](https://github.com/DINESH2841/rfid-attendance-system-esp32)** | Real-time RFID hardware scanning and logging to Google Sheets | ESP32, C++, Google Apps Script | Live UI, Setup Pics |
-| **[RAS Curry E-Commerce](https://github.com/DINESH2841/rascurrys-ecommerce)** | Live operational, real-time food order management infrastructure | Next.js, Node.js, MongoDB | Dashboard UI, APIs |
+| **[RAS Curry E-Commerce (Architecture Showcase)](https://github.com/DINESH2841/rascurrys-showcase)** | Live operational, real-time food order management infrastructure | Next.js, Node.js, MongoDB | Dashboard UI, APIs |
 | **[Bank Statement Analyzer](https://github.com/DINESH2841/bank-statement-analyzer)** | Parses financial statements & auto-categorizes transactions | React, Express, Redis | Analytical Charts |
 
 ---
