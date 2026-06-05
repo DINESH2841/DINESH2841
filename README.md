@@ -121,8 +121,7 @@ python predict.py --image test.jpg
 
 ## 📊 GitHub Stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=dinesh2841&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" height="140" />
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=dinesh2841&theme=dark&hide_border=true&short_numbers=true&date_format=M%20j%5B%2C%20Y%5D" alt="GitHub Streak" /></a>
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=dinesh2841&layout=compact&theme=tokyonight&hide_border=true" height="140" />
 </p>
 
