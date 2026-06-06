@@ -1,4 +1,4 @@
-[<p align="center">
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,30&height=180&section=header&text=S%20Dinesh&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=ECE%20Engineer%20%7C%20Embedded%20Systems%20%7C%20VLSI%20%7C%20IoT%20%7C%20Edge%20AI&descAlignY=62&descSize=15" />
 </p>
 
@@ -166,24 +166,26 @@ void motto() {
 
 <div align="center">
   <a href="https://github.com/DINESH2841">
-    <img src="https://github-readme-stats.vercel.app/api?username=dinesh2841&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=38BDAE&icon_color=BF91F3&text_color=c9d1d9&border_radius=10" height="165" />
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=dinesh2841&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=38BDAE&icon_color=BF91F3&text_color=c9d1d9&border_radius=10" height="165" />
   </a>
   <a href="https://github.com/DINESH2841">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinesh2841&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDAE&text_color=c9d1d9&langs_count=8&border_radius=10" height="165" />
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=dinesh2841&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDAE&text_color=c9d1d9&langs_count=8&border_radius=10" height="165" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=dinesh2841&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=38BDAE&fire=BF91F3&currStreakLabel=38BDAE&sideLabels=70A5FD&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/streak?username=dinesh2841&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDAE&fire=BF91F3&currStreakLabel=38BDAE&sideLabels=70A5FD&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" />
+</div>
+
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=dinesh2841&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dinesh2841&theme=tokyo-night&bg_color=0d1117&color=38BDAE&line=BF91F3&point=70A5FD&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dinesh2841&theme=tokyo-night&bg_color=0d1117&color=38BDAE&line=BF91F3&point=70A5FD&area=true&hide_border=true&radius=8" width="100%" />
 </div>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dinesh2841&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7&margin-w=4" />
-</div>
 
 ---
 
@@ -236,4 +238,3 @@ void motto() {
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,30&height=120&section=footer&animation=twinkling" />
 </p>
-](https://github-readme-activity-graph.vercel.app/graph?username=dinesh2841&theme=tokyo-night&bg_color=0d1117&color=38BDAE&line=BF91F3&point=70A5FD&area=true&hide_border=true&radius=8)
