@@ -179,7 +179,7 @@ void motto() {
 
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dinesh2841&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" />
+  <img src="https://trophy.benkou.dev/?username=dinesh2841&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=6&margin-w=8" />
 </div>
 
 <div align="center">
