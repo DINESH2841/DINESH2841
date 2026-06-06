@@ -1,4 +1,4 @@
-<p align="center">
+[<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,30&height=180&section=header&text=S%20Dinesh&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=ECE%20Engineer%20%7C%20Embedded%20Systems%20%7C%20VLSI%20%7C%20IoT%20%7C%20Edge%20AI&descAlignY=62&descSize=15" />
 </p>
 
@@ -236,3 +236,4 @@ void motto() {
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,30&height=120&section=footer&animation=twinkling" />
 </p>
+](https://github-readme-activity-graph.vercel.app/graph?username=dinesh2841&theme=tokyo-night&bg_color=0d1117&color=38BDAE&line=BF91F3&point=70A5FD&area=true&hide_border=true&radius=8)
