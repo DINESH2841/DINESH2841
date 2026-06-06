@@ -1,98 +1,164 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=S%20Dinesh&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=ECE%20Engineer%20%7C%20Embedded%20%2B%20Full-Stack%20%2B%20ML%20%7C%20Building%20Systems%20That%20Ship&descAlignY=62&descSize=15" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,30&height=180&section=header&text=S%20Dinesh&fontSize=52&fontColor=fff&animation=twinkling&fontAlignY=36&desc=ECE%20Engineer%20%7C%20Embedded%20Systems%20%7C%20VLSI%20%7C%20IoT%20%7C%20Edge%20AI&descAlignY=62&descSize=15" />
 </p>
 
 <p align="center">
   <a href="https://readme-typing-svg.demolab.com">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&duration=3000&pause=1000&color=70A5FD&center=true&vCenter=true&width=800&lines=97.2%25+Accurate+Oral+Cancer+Detection+%7C+DenseNet201+%2B+CBAM;ESP32+RFID+%E2%86%92+Google+Sheets+in+%3C800ms;Full-Stack+%7C+Node.js+%2B+Next.js+%2B+Redis+%2B+MongoDB;Embedded+Systems+%7C+FreeRTOS+%2B+LoRa+%2B+ESP32;Shipping+Real+Products+%E2%80%94+RAS+Curry+is+Live+%F0%9F%8D%9B" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=3000&pause=1000&color=38BDAE&center=true&vCenter=true&width=850&lines=ESP32+%2B+SX1276+LoRa+Motor+Control+%E2%80%94+500m+Wireless+Range;FreeRTOS+Crash-Detection+Helmet+%7C+MPU6050+%2B+Complementary+Filter;Edge+AI+on+ESP32S3+%E2%80%94+97%25+Accuracy%2C+DenseNet201+%E2%86%92+TFLite;IoT+Boat+Depth+Mapper+%7C+GPS+%2B+LoRa+%2B+Python+GIS;Custom+SPI%2FI2C+Drivers+%7C+MQTT+%7C+Multi-Sensor+Platform" alt="Typing SVG" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=DINESH2841&color=70A5FD&style=flat-square&label=Profile+Views" />
+  <img src="https://komarev.com/ghpvc/?username=DINESH2841&color=38BDAE&style=flat-square&label=Profile+Views" />
   <a href="https://linkedin.com/in/sevinnidinesh"><img src="https://img.shields.io/badge/LinkedIn-sevinnidinesh-0A66C2?style=flat-square&logo=linkedin&logoColor=white" /></a>
-  <a href="https://dineshsevinni.me/"><img src="https://img.shields.io/badge/Portfolio-dineshsevinni.me-252525?style=flat-square&logo=google-chrome&logoColor=white" /></a>
-  <a href="mailto:dineshsevinni@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20Me-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Work-38BDAE?style=flat-square" />
-  <img src="https://img.shields.io/badge/Location-Chennai%20%7C%20Bengaluru%20%7C%20Hyderabad-BF91F3?style=flat-square" />
+  <a href="https://dineshsevinni.me/"><img src="https://img.shields.io/badge/Portfolio-dineshsevinni.me-1A1A2E?style=flat-square&logo=google-chrome&logoColor=white" /></a>
+  <img src="https://img.shields.io/badge/Open%20to-Embedded%20%7C%20VLSI%20%7C%20IoT%20Roles-38BDAE?style=flat-square" />
+  <img src="https://img.shields.io/badge/Immediate%20Joiner-Chennai%20%7C%20Bengaluru%20%7C%20Hyderabad-BF91F3?style=flat-square" />
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+## 🔌 Hardware Engineer Profile
 
-<img align="right" width="360" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+<img align="right" width="340" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
 
-```python
-class Dinesh:
-    name       = "S Dinesh"
-    location   = "Chennai, India"
-    degree     = "B.E. Electronics & Communication Engineering"
-    college    = "SIMATS, Chennai — CGPA: 7.8 (2026)"
+```c
+/* engineer.h — S Dinesh */
 
-    stack = [
-        "Embedded: ESP32, FreeRTOS, LoRa, SPI/I2C, MQTT",
-        "Backend:  Node.js, Spring Boot, Redis, REST APIs",
-        "Frontend: Next.js, React, TypeScript, Tailwind",
-        "ML/AI:    TensorFlow, Keras, DenseNet201, TFLite",
-        "Infra:    MongoDB, MSSQL, SQLite, Vercel, Render",
-    ]
+#define DEGREE      "B.E. Electronics & Communication Engg"
+#define COLLEGE     "SIMATS, Chennai  |  CGPA: 7.8  |  2026"
+#define LOCATION    "Chennai → Open to Bengaluru / Hyderabad"
 
-    currently_learning = [
-        "Multi-agent AI orchestration (Playwright + Ollama)",
-        "Android development (Kotlin + Jetpack Compose)",
-        "NPTEL: ML, Probabilistic Graphical Models",
-    ]
+const char* hw_stack[] = {
+  "MCUs:       ESP32, ESP32-S3, XIAO ESP32S3",
+  "Protocols:  SPI, I2C, UART, LoRa (SX1276)",
+  "RTOS:       FreeRTOS (tasks, queues, semaphores)",
+  "Sensors:    MPU6050, RC522 RFID, GPS, Ultrasonic",
+  "RF:         LoRa 868/915 MHz, WiFi, Bluetooth",
+  "Tools:      Arduino IDE, PlatformIO, OpenCV",
+  "HDL:        Verilog (combinational + sequential)",
+  "EDA:        KiCad (schematic + PCB layout basics)",
+};
 
-    experience = "Hitachi Energy SWE Intern (Aug–Nov 2025)"
-    open_to    = ["Embedded / IoT", "Full-Stack SWE", "ML / AI Eng"]
-    fun_fact   = "I run a live food delivery business (RAS Curry) 🍛"
+const char* currently_learning[] = {
+  "ARM Cortex-M bare-metal programming",
+  "RISC-V architecture fundamentals",
+  "Advanced Verilog + FPGA synthesis",
+  "TFLite Micro for MCU deployment",
+};
 
-    def motto(self):
-        return "Don't just write code. Build systems."
+void motto() {
+  printf("Silicon first. Software second.\n");
+}
 ```
 
 <br clear="right"/>
 
 ---
 
-## 🛠 Tech Stack
+## ⚙️ Hardware & Embedded Tech Stack
 
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
-
-**Frameworks & Libraries**
-
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-
-**Embedded & IoT**
+**Microcontrollers & SoCs**
 
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![ESP32-S3](https://img.shields.io/badge/ESP32--S3-E7352C?style=flat-square&logo=espressif&logoColor=white)
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-007ACC?style=flat-square&logo=freertos&logoColor=white)
+![ARM Cortex](https://img.shields.io/badge/ARM%20Cortex--M-0091BD?style=flat-square&logo=arm&logoColor=white)
+
+**Communication Protocols**
+
+![SPI](https://img.shields.io/badge/SPI-Custom%20Driver-2D2D2D?style=flat-square)
+![I2C](https://img.shields.io/badge/I2C-Multi--Sensor-2D2D2D?style=flat-square)
+![UART](https://img.shields.io/badge/UART-2D2D2D?style=flat-square)
+![LoRa](https://img.shields.io/badge/LoRa-SX1276%20%7C%20868MHz-6F42C1?style=flat-square)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
+![WiFi](https://img.shields.io/badge/WiFi-ESP32%20Stack-1572B6?style=flat-square)
 
-**Databases & Cloud**
+**RTOS & Firmware**
 
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MSSQL](https://img.shields.io/badge/MSSQL-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-Tasks%20%7C%20Queues%20%7C%20Semaphores-007ACC?style=flat-square)
+![C++](https://img.shields.io/badge/C++-Firmware-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-Bare%20Metal-A8B9CC?style=flat-square&logo=c&logoColor=black)
+
+**VLSI & HDL**
+
+![Verilog](https://img.shields.io/badge/Verilog-HDL-E34F26?style=flat-square)
+![KiCad](https://img.shields.io/badge/KiCad-PCB%20Design-314CB0?style=flat-square&logo=kicad&logoColor=white)
+
+**Signal Processing & ML at Edge**
+
+![Python](https://img.shields.io/badge/Python-DSP%20%7C%20GIS-3776AB?style=flat-square&logo=python&logoColor=white)
+![TensorFlow Lite](https://img.shields.io/badge/TFLite-Edge%20Inference-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+
+---
+
+## 🔬 Hardware Project Portfolio
+
+### 📡 [LoRa Joystick Motor Control — ESP32 + SX1276](https://github.com/DINESH2841/Water-Depth-Mapping)
+
+> `ESP32` `SX1276` `LoRa 868MHz` `Custom SPI Driver` `Wireless Control`
+
+- Wrote a **custom SPI driver** from scratch for the SX1276 LoRa transceiver — no library abstraction
+- Achieved **500m wireless range** for real-time joystick-to-motor command transmission
+- Implemented packet acknowledgement, RSSI monitoring, and adaptive retransmit logic
+- Dual-node architecture: TX (joystick) + RX (motor driver) with sub-100ms command latency
+
+---
+
+### 🪖 [Crash-Detection Smart Helmet — ESP32S3 + FreeRTOS](https://github.com/DINESH2841/DINESH2841)
+
+> `XIAO ESP32S3` `MPU6050` `FreeRTOS` `I2C` `Complementary Filter` `GSM Alert`
+
+- Fused **accelerometer + gyroscope** data from MPU6050 over I2C using a complementary filter
+- Implemented **FreeRTOS multi-tasking**: separate tasks for sensor read, crash detection, and alert dispatch
+- Complementary filter replaced Kalman for MCU footprint constraints — tuned α = 0.96 for optimal drift correction
+- Crash threshold calibrated against controlled fall datasets; real-time SMS/GSM alert on detection
+
+---
+
+### 🚤 [IoT Boat Depth Mapper — GPS + LoRa + Python GIS](https://github.com/DINESH2841/Water-Depth-Mapping)
+
+> `ESP32` `HC-SR04 Ultrasonic` `NEO-6M GPS` `SX1276 LoRa` `Python` `GIS Post-processing`
+
+- GPS-tagged depth readings transmitted over LoRa to a shore-side receiver in real-time
+- **Python GIS pipeline** post-processed raw lat/lon + depth data into bathymetric heatmaps
+- Synchronized multi-sensor timestamps (GPS PPS + ultrasonic pulse timing) for sub-meter spatial accuracy
+- Custom NMEA parser for GPS stream; depth-to-distance calibration for freshwater vs saltwater
+
+---
+
+### 🧠 [Edge AI Oral Abnormality Detector — TFLite on ESP32S3](https://github.com/DINESH2841/Oral-Cancer-Densenet)
+
+> `XIAO ESP32S3` `TensorFlow Lite Micro` `DenseNet201` `Quantization` `Python`
+
+- Trained DenseNet201 + CBAM attention model to **97.2% accuracy** (AUC: 0.997) on 13,202 images
+- **Compressed and quantized** the model to TFLite format for deployment on ESP32S3 (≤4MB flash)
+- Achieved **97% on-device accuracy** post-quantization with INT8 weight compression
+- False negative rate held to **1.83%** — critical for medical screening applications
+
+---
+
+### 📡 [RFID Attendance System — ESP32 + Google Sheets](https://github.com/DINESH2841/RFID-Based-ESP-Integrated-with-Google-Sheets)
+
+> `ESP32` `RC522` `SPI Protocol` `C++` `EEPROM` `SPIFFS` `HTTP`
+
+- Interfaced RC522 RFID reader over **hardware SPI** with custom CS/IRQ pin management
+- **EEPROM offline buffering** — zero data loss during WiFi dropout; syncs on reconnect
+- SPIFFS JSON config stores 50+ card IDs without reflashing firmware
+- HTTP POST to Google Apps Script webhook → Google Sheets; **<800ms end-to-end latency**
+
+---
+
+### 🌐 [Multi-Sensor IoT Platform — Custom I2C/ADC Drivers](https://github.com/DINESH2841/DINESH2841)
+
+> `ESP32` `I2C` `ADC` `MQTT` `Custom Drivers` `Sensor Fusion`
+
+- Wrote **bare-metal I2C and ADC drivers** without HAL abstraction for deterministic timing
+- Multi-sensor data aggregation with MQTT publish to cloud broker
+- Interrupt-driven ADC sampling for high-frequency analog signal capture
+- Modular firmware architecture: driver layer → middleware → application layer
 
 ---
 
@@ -100,19 +166,19 @@ class Dinesh:
 
 <div align="center">
   <a href="https://github.com/DINESH2841">
-    <img src="https://github-readme-stats.vercel.app/api?username=dinesh2841&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=70a5fd&icon_color=bf91f3&text_color=c9d1d9&border_radius=10" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api?username=dinesh2841&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=38BDAE&icon_color=BF91F3&text_color=c9d1d9&border_radius=10" height="165" />
   </a>
   <a href="https://github.com/DINESH2841">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinesh2841&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=70a5fd&text_color=c9d1d9&langs_count=8&border_radius=10" height="165" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dinesh2841&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38BDAE&text_color=c9d1d9&langs_count=8&border_radius=10" height="165" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=dinesh2841&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=70A5FD&fire=BF91F3&currStreakLabel=70A5FD&sideLabels=38BDAE&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" />
+  <img src="https://streak-stats.demolab.com?user=dinesh2841&theme=tokyonight-duo&hide_border=true&background=0D1117&ring=38BDAE&fire=BF91F3&currStreakLabel=38BDAE&sideLabels=70A5FD&dates=8B949E&currStreakNum=C9D1D9&sideNums=C9D1D9&stroke=0D1117&border_radius=10" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dinesh2841&theme=tokyo-night&bg_color=0d1117&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=dinesh2841&theme=tokyo-night&bg_color=0d1117&color=38BDAE&line=BF91F3&point=70A5FD&area=true&hide_border=true" />
 </div>
 
 <div align="center">
@@ -121,58 +187,23 @@ class Dinesh:
 
 ---
 
-## 💼 Work Experience
-
-<details>
-<summary><b>🏢 Hitachi Energy — Software Engineering Intern &nbsp;|&nbsp; Aug–Nov 2025 &nbsp;|&nbsp; Chennai, India</b></summary>
-
-> `Java` `Spring Boot` `MSSQL` `REST APIs` `Hibernate` `Maven`
-
-- Built a **Travel Request Management System** end-to-end — approval workflows, multi-level authorization, and audit trail
-- Designed and implemented **REST APIs** consumed across the internal portal; reduced manual processing time significantly
-- Worked directly with a production MSSQL schema, writing optimized queries and Hibernate ORM mappings
-- Delivered within a 4-month timeline in a professional team environment at one of ABB's spun-off energy divisions
-
-</details>
-
----
-
-## 🏆 Featured Projects
+## 🎯 What I'm Targeting
 
 <div align="center">
 
-| Project | Stack | Highlights |
-|:--------|:------|:-----------|
-| 🧠 [**Oral Cancer Detection**](https://github.com/DINESH2841/Oral-Cancer-Densenet) | Python · TensorFlow · DenseNet201 · CBAM | **97.2% accuracy**, **AUC 0.997**, 98% recall on 13,202 images; beat EfficientNetB0 by **2.4%** on recall |
-| 📡 [**RFID Attendance System**](https://github.com/DINESH2841/RFID-Based-ESP-Integrated-with-Google-Sheets) | ESP32 · C++ · SPI · Google Sheets API | **<800ms** cloud sync, zero data loss via EEPROM buffering, 50+ registered cards via SPIFFS JSON |
-| 🛒 [**RAS Curry — E-Commerce Platform**](https://github.com/DINESH2841/rascurrys-showcase) | Next.js · Node.js · MongoDB · Redis · WebSockets | Live production system — WhatsApp order automation, HDFC payment gateway, sub-second API via Redis cache |
-| 🏦 [**Bank Statement Analyzer**](https://github.com/DINESH2841/bank_analyzer_app) | TypeScript · Python · React | 10,000+ transactions parsed, 20+ categories, MAB engine with daily gap-filling, fraud flag detection |
-| 💼 [**AI Job Agent**](https://github.com/DINESH2841/AI-Job-Agent) | Python · Playwright · Ollama · SQLite | Multi-source scraper (Naukri, LinkedIn, Greenhouse, Lever) with dedup, Gmail digest, hosted on GitHub Actions |
-| 📈 [**Job Tracker**](https://github.com/DINESH2841/job-tracker) | TypeScript · Node.js | Application pipeline tracker with status stages, analytics dashboard, and automated status updates |
+| Role | Target Companies | My Relevant Depth |
+|:-----|:----------------|:-----------------|
+| **Embedded / Firmware Engineer** | Qualcomm, Infineon, TI, STMicro, Bosch | Custom SPI/I2C drivers, FreeRTOS, LoRa, ESP32 |
+| **IoT Hardware Engineer** | ideaForge, ABB, Schneider, Honeywell | 4 deployed IoT systems, MQTT, sensor fusion |
+| **VLSI / RTL Design** | CDAC, Intel, AMD, Synopsys, Cadence | Verilog HDL, combinational + sequential logic |
+| **Edge AI / Embedded ML** | NXP, Arm, Renesas, Samsung | TFLite on MCU, INT8 quantization, DenseNet201 |
+| **Chip/Platform Validation** | Qualcomm, Marvell, MediaTek | Signal integrity, protocol debugging, SPI/I2C |
 
 </div>
 
 ---
 
-## 🎖 Achievements
-
-<div align="center">
-
-| | Achievement | Details |
-|:-:|:------------|:--------|
-| 🥇 | **97.2% Oral Cancer Detection Accuracy** | DenseNet201 + CBAM on 13,202 images — 1.83% false negative rate, AUC 0.997 |
-| 📡 | **Sub-800ms IoT Cloud Sync** | ESP32 RFID → Google Sheets in real-time with offline EEPROM buffering |
-| 🚀 | **Satellite Water Body Detection** | Faster R-CNN in PyTorch — **98.5% mAP** on satellite imagery dataset |
-| 🪖 | **Crash-Detection Smart Helmet** | ESP32S3 + MPU6050, FreeRTOS + complementary filter; real-time fall detection |
-| 📡 | **LoRa Motor Control System** | Custom SPI driver, 500m wireless range, joystick → ESP32 → SX1276 |
-| 🍛 | **Shipped a Real Product** | RAS Curry (rascurrys.store) — live food delivery with real customers & payments |
-| 🤖 | **Edge AI on Microcontroller** | TFLite DenseNet201 model deployed on ESP32S3; 97% accuracy at the edge |
-
-</div>
-
----
-
-## 🎓 Education
+## 🎓 Education & Certifications
 
 <div align="center">
 
@@ -182,24 +213,26 @@ class Dinesh:
 
 </div>
 
+**Relevant Coursework:** Digital Electronics · VLSI Design · Microprocessors & Microcontrollers · Signals & Systems · Communication Systems · Embedded Systems · DSP · Computer Networks
+
 ---
 
-## 📚 Currently Learning
+## 📚 Currently Deepening
 
 ```
-🤖 Multi-Agent AI     →  Playwright · Ollama · LLM orchestration · browser-use
-📱 Android Dev        →  Kotlin · Jetpack Compose · MVVM · Room · StateFlow
-📊 ML Theory          →  GMMs · EM Algorithm · Bayesian Networks · PGMs (NPTEL)
-🔧 Systems Design     →  Distributed systems · event-driven architecture · Redis Streams
-🧰 DevOps             →  GitHub Actions CI/CD · Docker · automated deploy pipelines
+⚡ ARM Cortex-M   →  Bare-metal programming, NVIC, DMA, startup code
+🔷 RISC-V         →  ISA architecture, pipeline stages, privilege levels
+🧩 Verilog / FPGA →  RTL design, synthesis, timing constraints, testbenches
+🤖 TFLite Micro   →  MCU model deployment, INT8 quantization, memory budgets
+📡 RF Systems      →  LoRa link budget, antenna matching, SX1276 register maps
 ```
 
 ---
 
 <p align="center">
-  <i>"Don't just write code. Build systems."</i>
+  <i>"Silicon first. Software second."</i>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=2,3,30&height=120&section=footer&animation=twinkling" />
 </p>
